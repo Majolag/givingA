@@ -1,15 +1,16 @@
 *{
     font-family: 'Mulish', sans-serif;
-    background-color: rgb(250, 248, 248);
 }
 
-ul{
+ul{ 
+    display: flex;
     height: 60px;
     border:none;
+    margin-top: -150px ;
+    margin-left: 800px;
 }
 
 .nav-tabs .nav-link{
-    margin-top: 10px;
     border: none;
 }
 .justify-content-center {

@@ -25,6 +25,8 @@ body,html{margin:0;padding:0;}
   justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
+   margin-top: -300px; 
+
 }
 
 .parallax::after {
@@ -53,9 +55,11 @@ body,html{margin:0;padding:0;}
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
-  background-image: url('https://placekitten.com/g/900/700');
+  background-image: url('./assets/img3.png');
+
 }
 
 .bg2::after {
-  background-image: url('https://placekitten.com/g/800/600');
+  background-image: url('./assets/footer.png');
+
 }

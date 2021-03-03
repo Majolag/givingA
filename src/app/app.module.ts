@@ -5,7 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
-import { ContentComponent } from './content/content.component';
+import { ContentComponent } from './components/nav/content/content.component';
 
 
 @NgModule({
