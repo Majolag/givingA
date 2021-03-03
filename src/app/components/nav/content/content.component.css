@@ -1,0 +1,32 @@
+.content{
+    margin-left: 80px;
+    margin-top:180px ;
+}
+.title1{
+    font-family: Impact;
+    color: gray;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 10px;
+    text-shadow: none;
+}
+
+.title1-1{
+    display: flex;
+    line-height: 0;
+}
+
+.name-video{
+    font-size: 30px;
+    background-color: white;
+    width: 580px;
+}
+
+.profile{
+    display: flex;
+    font-size: 30px;
+}
+
+.span{
+    
+}

@@ -2,12 +2,17 @@
     font-family: 'Mulish', sans-serif;
 }
 
+app-nav{
+    width: 100%;
+    margin-top: -218px;
+}
+
 ul{ 
     display: flex;
     height: 60px;
     border:none;
-    margin-top: -150px ;
-    margin-left: 800px;
+    background-color: #0472A1;
+    width: 100%;
 }
 
 .nav-tabs .nav-link{
@@ -15,31 +20,37 @@ ul{
 }
 .justify-content-center {
     justify-content: flex-end!important;
-    margin-right: 80px;
+    align-items: center;
 }
 .btn-outline-primary{
-    margin-top: 10px;
+    height: 40px;
     color: white;
-    border-color: green;
-    background-color: green;
+    border-color: #26A346;
+    background-color: #26A346;
 }
 
-.title1{
-    font-family: Impact;
-    color: gray;
-    font-size: 50px;
+.nav-tabs{
+    border-bottom: none;
+    
 }
 
-.title1-1{
-    display: flex;
-}
-.name-video{
-    font-size: 30px;
-    background-color: white;
-    width: 580px;
+.nav-link.active{
+    background-color: transparent!important;
+    color: rgb(233, 217, 217)!important;
 }
 
-.profile{
-    display: flex;
-    font-size: 30px;
+a{
+    color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: white;
+}
+
+a:hover{
+    color: rgb(233, 217, 217)!important;
+}
+
+.btn-outline-primary:hover{
+    background-color: #1f8137;
 }
