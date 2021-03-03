@@ -1,0 +1,44 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    background-color: rgb(250, 248, 248);
+}
+
+ul{
+    height: 60px;
+    border:none;
+}
+
+.nav-tabs .nav-link{
+    margin-top: 10px;
+    border: none;
+}
+.justify-content-center {
+    justify-content: flex-end!important;
+    margin-right: 80px;
+}
+.btn-outline-primary{
+    margin-top: 10px;
+    color: white;
+    border-color: green;
+    background-color: green;
+}
+
+.title1{
+    font-family: Impact;
+    color: gray;
+    font-size: 50px;
+}
+
+.title1-1{
+    display: flex;
+}
+.name-video{
+    font-size: 30px;
+    background-color: white;
+    width: 580px;
+}
+
+.profile{
+    display: flex;
+    font-size: 30px;
+}
